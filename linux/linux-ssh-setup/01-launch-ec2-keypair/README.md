@@ -21,7 +21,7 @@ total 16
 2. EC2 → Network & Security → Key Pairs → Actions → Import key pair → paste `daws-92s.pub`
 3. Launch instance: Amazon Linux 2023, t3.micro, key pair `daws-92s`
 
-![alt text](image.png)
+![Instance running in ap-south-2](instance-hyd.png)
 
 - `daws-92s` → private key. It stays on my laptop and is never shared.
   Permissions are `-rw-------` (only I can read it). I use it to log in:
