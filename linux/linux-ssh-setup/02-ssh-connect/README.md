@@ -30,13 +30,10 @@ ip-172-31-3-60.ap-south-2.compute.internal
 (`ED25519 key fingerprint ...`). After `yes`, it is saved in `~/.ssh/known_hosts`
 and not asked again for this IP.
 
-┌────────────────────────┬───────────────────┬──────────────────────────┬─────────────────────────────────────────┐
-│          File          │       Where       │          Holds           │                 Answers                 │
-├────────────────────────┼───────────────────┼──────────────────────────┼─────────────────────────────────────────┤
-│ ~/.ssh/known_hosts     │ your laptop       │ the server's fingerprint │ "Is this the same server as last time?" │
-├────────────────────────┼───────────────────┼──────────────────────────┼─────────────────────────────────────────┤
-│ ~/.ssh/authorized_keys │ the server        │ your public key          │ "Is this person allowed to log in?"     │
-└────────────────────────┴───────────────────┴──────────────────────────┴─────────────────────────────────────────┘
+| File | Where | Holds | Answers |
+|---|---|---|---|
+| `~/.ssh/known_hosts` | my laptop | the server's fingerprint | "Is this the same server as last time?" |
+| `~/.ssh/authorized_keys` | the server | my public key | "Is this person allowed to log in?" |
 
 - `ec2-user` is the default user on Amazon Linux
 - `/home/ec2-user` is its home folder
