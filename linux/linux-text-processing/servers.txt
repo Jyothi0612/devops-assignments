@@ -1,0 +1,5 @@
+web-server-01 192.168.1.10 running
+web-server-02 192.168.1.11 stopped
+db-server-01  192.168.1.20 running
+db-server-02  192.168.1.21 running
+cache-server  192.168.1.30 stopped
